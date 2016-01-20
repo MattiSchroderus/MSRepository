@@ -49,32 +49,7 @@ namespace t1
             {
                 Temp -= 1;
             }
-        /*    
-            public void Valikko()
-             {
-             int Valinta = 0;
-             int Poistuminen = 1;
-             do
-             {
-
-                 Valinta = int.Parse(Console.ReadLine());
-                 switch (Valinta)
-                 {
-                     case 1:
-                         harvia.Kuumaa();
-                         harvia.Tarkistus();
-                         break;
-                     case 2:
-                         harvia.Kylmaa();
-                         harvia.Tarkistus();
-                         break;
-                     case 3:
-                         Poistuminen = 0;
-                         break;
-                 }
-             } while (Poistuminen != 0);
-             }
-             */
+       
             public void Tarkistus()
             {
                 Console.WriteLine("  Lampotila on " + Temp + " astetta." );
